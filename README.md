@@ -33,27 +33,41 @@ Task 3: Geospatial Analysis
 
 Table Booking & Online Delivery
 
-Availability: 12.12% of restaurants offer table booking, while 25.66% provide online delivery.
-Average Ratings: Restaurants with table booking have an average rating of 3.44, compared to 2.56 for those without.
+         Availability: 12.12% of restaurants offer table booking, while 25.66% provide online delivery.
+         
+         Average Ratings: Restaurants with table booking have an average rating of 3.44, compared to 2.56 for those without.
 
 Price Range Analysis
+
          Commonality: The most frequent price range is 1.
+         
          Top Ratings: The highest average rating, 3.82, is found in price range 4.
          
 Feature Engineering
+
          New Features: I extracted new features such as the length of the restaurant name and address.
+         
          Encoded Features: I encoded new features like "Has Table Booking" and "Has Online Delivery."
          
 Key Insights
+
          Service Impact
+         
                   Restaurants offering table booking services achieve significantly higher ratings.
+                  
          Online Delivery
+         
                   Online delivery services are most common in mid-range price categories.
+                  
          High-End Focus
+         
                   Despite being fewer in number, restaurants in price range 4 receive the highest average ratings.
                   
 Recommendations
+
          Expand table booking and online delivery services to boost customer satisfaction.
+         
          Focus marketing on mid-range price categories where online delivery is more common.
+         
          Promote high-end dining experiences, leveraging the high ratings in price range 4.
 
