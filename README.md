@@ -71,3 +71,50 @@ Recommendations
          
          Promote high-end dining experiences, leveraging the high ratings in price range 4.
 
+#LEVEL 3
+
+Task 1:- Predictive Modeling
+Task 2:- Customer Preference Analysis
+Task 3:- Data Visualization
+Here's a glimpse of what I accomplished:-
+
+◉ Data Visualization:
+
+         > Distribution of Ratings: Visualized using histograms and bar plots to understand the spread and central tendency of restaurant ratings.
+         > Cuisine and City Comparison: Bar charts and box plots were used to compare average ratings across different cuisines and cities, providing a clear picture of regional and culinary preferences.
+         > Feature Relationships: Scatter plots and correlation matrices helped visualize the relationships between various features and the target variable, offering deeper insights into the factors influencing          restaurant ratings.
+
+◉ Key Observations:
+
+         Linear Regression:-
+         
+                  > Mean Squared Error (MSE): 1.5085
+                  
+                  > R-squared: 0.8284
+                  
+                  > Observation : While Linear Regression provided a decent fit, it showed the highest MSE among the models, indicating lower accuracy in predicting restaurant ratings.
+
+         Decision Tree::-
+                  > MSE: 0.7872
+                  
+                  > R-squared: 0.9198
+                  
+                  > Observation : The Decision Tree model significantly improved prediction accuracy over Linear Regression, with a substantial reduction in MSE and a higher R-squared value.
+
+         Random Forest:-
+         
+                  > MSE: 0.2137
+                  
+                  > R-squared: 0.9433
+                  
+                  > Observation: The Random Forest model outperformed both Linear Regression and Decision Tree models. It achieved the lowest MSE and the highest R-squared value, making it the most accurate                          model in our study.
+
+
+◉ Recommendations:-
+
+         • Adopt Advanced Models: For businesses looking to predict customer ratings accurately, advanced models like Random Forest should be preferred due to their higher accuracy and robustness.
+         
+         • Focus on Popular Cuisines: Restaurants can leverage insights on popular cuisines to tailor their menus and marketing strategies, aligning more closely with customer preferences.
+         
+         • Continuous Analysis: Regularly updating and analyzing the model with new data can help maintain high accuracy and relevance, adapting to changing customer tastes and trends.
+
